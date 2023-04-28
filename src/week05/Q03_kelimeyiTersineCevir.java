@@ -28,5 +28,4 @@ public class Q03_kelimeyiTersineCevir {
         System.out.println(temp);
     }
 
-
 }
