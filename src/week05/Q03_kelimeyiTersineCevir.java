@@ -2,10 +2,9 @@ package week05;
 
 import java.util.Scanner;
 
-public class Q02_kelimeyiTersineCevir {
-
+public class Q03_kelimeyiTersineCevir {
     // Soru- Kullanicidan bir cumle veya bir kelime girmisini isteyip
-    // girilen degeri tersine donduren bir method olusturun
+    // girilen degeri tersine yazdiran bir method olusturun
 
     public static void main(String[] args) {
 
@@ -15,10 +14,10 @@ public class Q02_kelimeyiTersineCevir {
 
         String kelime = scan.nextLine();
 
-        System.out.println(tersineCevir(kelime));
+        tersineCevir(kelime);
     }
 
-    public static String tersineCevir(String str){
+    public static void tersineCevir(String str){
 
         String temp = "";
 
@@ -26,7 +25,8 @@ public class Q02_kelimeyiTersineCevir {
             temp += str.charAt(i);
         }
 
-        return temp;
+        System.out.println(temp);
     }
+
 
 }
